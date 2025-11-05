@@ -24,6 +24,31 @@
   <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
 
   <link rel="stylesheet" href="css/styles.css" />
+  
+	<script type="application/ld+json">
+	{
+	  "@context": "https://schema.org",
+	  "@type": "Thermal Imaging Surveys",
+	  "name": "HeatScan",
+	  "description": "We detect invisible heat loss, damp, leaks, insulation faults and electrical faults across Uxbridge and surrounding areas.",
+	  "url": "https://www.heatscan.co.uk",
+	  "image": "https://www.heatscan.co.uk/logo.png",
+	  "address": {
+		"@type": "PostalAddress",
+		"addressLocality": "Uxbridge",
+		"postalCode": "UB8 1AA",
+		"addressCountry": "UK"
+	  },
+	  "openingHours": "Mo-Sun 09:00-21:00",
+	  "areaServed": "Uxbridge",
+	  //"sameAs": [
+		//"https://www.facebook.com/ABCservices",
+		//"https://www.instagram.com/ABCservices"
+	  ],
+	  //"priceRange": "££"
+	}
+	</script>
+  
 </head>
 
 <body>
@@ -147,7 +172,7 @@
               <td>350</td>
             </tr>
             <tr>
-              <td>6+</td>
+              <td>6+/other circumstances</td>
               <td>Request Quote</td>
             </tr>
           </tbody>
@@ -208,7 +233,7 @@
     <section id="contact" class="section alt">
       <div class="container">
         <h2>Contact</h2>
-        <form id="contact-form" action="https://formsubmit.co/your@email.com" method="POST">
+        <form id="contact-form" action="https://formsubmit.co/enquiries@heatscan.co.uk" method="POST">
           <input type="hidden" name="_subject" value="New message from website" />
           <input type="hidden" name="_captcha" value="false" />
 
@@ -225,7 +250,7 @@
           <textarea id="message" name="message" rows="5" required placeholder="Your message"></textarea>
 
 
-<label style="display: flex; align-items: center; gap: 4px; max-width: 300px; flex-wrap: wrap;">
+<label style="display: flex; align-items: center; gap: 4px; max-width: 500px; flex-wrap: wrap;">
   <input type="checkbox" name="privacy" required
     style="appearance: checkbox; -webkit-appearance: checkbox; -moz-appearance: checkbox; margin: 0; padding: 0; width: 16px; height: 16px; flex-shrink: 0;">
   I have read and agree to the <a href="privacy.html" target="_blank" style="color: navy;">privacy policy </a>regarding the use of my personal data
@@ -240,7 +265,9 @@
 
   <footer class="site-footer" role="contentinfo">
     <div class="footer-inner">
+<!--
       <img src="images/logo.png" alt="Company logo" />
+-->
       <p class="note">© <span id="year"></span> HeatScan. &nbsp;&nbsp;&nbsp;&nbsp; All rights reserved. No tracking cookies. No bloat. Privacy-respecting analytics only.</p>
 
       <ul class="footer-links">
