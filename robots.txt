@@ -1,0 +1,8 @@
+text
+User-agent: *
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /private/
+Allow: /
+
+Sitemap: https://heatscan.co.uk/sitemap.xml
