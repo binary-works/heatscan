@@ -28,7 +28,7 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--bg);
-  font-family: Roboto!important;
+  font-family: Arial!important;
   font-size: 20px;
   line-height: 1.6;
 }
