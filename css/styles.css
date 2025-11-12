@@ -5,6 +5,7 @@
 @font-face {
   font-family: 'Ubuntu Sans';
   src: url('../fonts/UbuntuSansCondensed-Regular.woff2') format('woff2');
+	  url('../fonts/UbuntuSansCondensed-Regular.ttf') format('truetype');
   font-weight: 400;
   font-stretch: 100%;
   font-style: normal;
