@@ -4,7 +4,7 @@
 /* Ubuntu Regular font */
 @font-face {
   font-family: 'Ubuntu';
-  src: url('../fonts/Ubuntu-C.woff2') format('woff2');
+  src: url('../fonts/UbuntuSansCondensed-Regular.woff2') format('woff2');
   font-weight: 400;
   font-stretch: 100%;
   font-style: normal;
