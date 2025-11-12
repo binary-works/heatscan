@@ -1,16 +1,3 @@
-/* ==================================================== */
-/*                        FONT FACE                      */
-/* ==================================================== */
-/* Ubuntu Regular font */
-@font-face {
-  font-family: 'Arial';
-  src: url('../fonts/UbuntuSansCondense.woff2') format('woff2');
-	  url('../fonts/UbuntuSansConde.ttf') format('truetype');
-  font-weight: 400;
-  font-stretch: 100%;
-  font-style: normal;
-  font-display: swap;
-}
 
 /* ==================================================== */
 /*                   CSS VARIABLES                       */
