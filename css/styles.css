@@ -3,7 +3,7 @@
 /* ==================================================== */
 /* Ubuntu Regular font */
 @font-face {
-  font-family: 'Ubuntu';
+  font-family: 'Ubuntu Sans';
   src: url('../fonts/UbuntuSansCondensed-Regular.woff2') format('woff2');
   font-weight: 400;
   font-stretch: 100%;
