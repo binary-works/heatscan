@@ -3,7 +3,7 @@
 /* ==================================================== */
 /* Ubuntu Regular font */
 @font-face {
-  font-family: 'Ubuntu Sans';
+  font-family: 'Arial';
   src: url('../fonts/UbuntuSansCondensed-Regular.woff2') format('woff2');
 	  url('../fonts/UbuntuSansCondensed-Regular.ttf') format('truetype');
   font-weight: 400;
