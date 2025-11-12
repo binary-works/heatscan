@@ -9,7 +9,10 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--bg);
+/*
   font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Cantarell, Noto Sans, Helvetica, Arial, sans-serif;
+*/
+  font-family:  system-ui;
   font-size: 20px;
   line-height: 1.6;
   
@@ -37,18 +40,19 @@ img {
 /* ==================================================== */
 /* Ubuntu Regular font */
 
+/*
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
        url('../fonts/Roboto-Regular.ttf') format('ttf');
-/*
   font-weight: 500;
-*/
+
   font-style: normal;
   font-display: swap;
   font-stretch: 85%;
   
 }
+*/
 
 
 /* ==================================================== */
@@ -295,6 +299,7 @@ img {
 }
 
 /* Checks list */
+
 .checks {
   list-style: none;
   padding: 0;
@@ -303,6 +308,9 @@ img {
   gap: 0.5rem;
   max-width: 900px;
 }
+
+
+
 .checks li {
   font-size: 1.5rem;
   padding-left: 1.6rem;
@@ -320,6 +328,7 @@ img {
   background: var(--brand-ghost);
   outline: 2px solid var(--brand);
 }
+
 .checks-wrapper {
   display: inline-block;
   text-align: left;
