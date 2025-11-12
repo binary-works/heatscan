@@ -9,9 +9,10 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--bg);
-  font-family: 'Ubuntu Sans', system-ui, -apple-system, Segoe UI, Roboto, Cantarell, Noto Sans, Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu', system-ui, -apple-system, Segoe UI, Roboto, Cantarell, Noto Sans, Helvetica, Arial, sans-serif;
   font-size: 20px;
   line-height: 1.6;
+  
 }
 
 /* Links */
@@ -36,12 +37,14 @@ img {
 /* ==================================================== */
 /* Ubuntu Regular font */
 @font-face {
-  font-family: 'Ubuntu Sans';
-  src: url('../fonts/UbuntuSansCondensed-Regular.woff2') format('woff2');
-  font-weight: 400;
+  font-family: 'Ubuntu';
+  src: url('../fonts/Ubuntu-R.woff2') format('woff2');
+  font-weight: 300;
   font-stretch: 100%;
   font-style: normal;
   font-display: swap;
+  font-stretch: 85%;
+  
 }
 
 /* ==================================================== */
@@ -397,7 +400,7 @@ img {
   max-width: 800px;
   margin: 0 auto;
   padding: 0 1rem;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-align: left;
 }
 .comfort-map-img {
@@ -420,7 +423,7 @@ img {
   text-align: left;
   margin: 0 auto;
   max-width: 800px;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
 }
 
 .map-img {
