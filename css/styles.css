@@ -409,13 +409,20 @@ img {
 /*                  COMFORT MAP                          */
 /* ==================================================== */
 .comfort-map-wrapper {
-  display: block;
+  display: inline-block;
   max-width: 800px;
   margin: 0 auto;
-  padding: 0 1rem;
-  font-size: 1.3rem;
   text-align: left;
+  font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .comfort-map-wrapper {
+    font-size: 1.1rem; /* Adjust this to match your desired mobile font size */
+  }
+}
+
+
 .comfort-map-img {
   width: 100%;
   max-width: 500px;
@@ -436,8 +443,15 @@ img {
   text-align: left;
   margin: 0 auto;
   max-width: 800px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
+
+@media (max-width: 768px) {
+  .catchment-wrapper {
+    font-size: 1.1rem; /* match the checks li for consistency */
+  }
+}
+
 
 .map-img {
   box-shadow: var(--shadow);
@@ -449,6 +463,8 @@ img {
   margin-bottom: 0.2rem;
   object-fit: cover;
 }
+
+
 
 /* ==================================================== */
 /*                      MISC                              */
