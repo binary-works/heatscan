@@ -9,10 +9,10 @@ body {
   margin: 0;
   color: var(--text);
   background: var(--bg);
-/*
+
   font-family: 'Roboto', system-ui, -apple-system, Segoe UI, Cantarell, Noto Sans, Helvetica, Arial, sans-serif;
-*/
-  font-family:  system-ui;
+
+
   font-size: 20px;
   line-height: 1.6;
   
@@ -40,19 +40,20 @@ img {
 /* ==================================================== */
 /* Ubuntu Regular font */
 
+
 /*
 @font-face {
   font-family: 'Roboto';
   src: url('../fonts/Roboto-Regular.woff2') format('woff2'),
        url('../fonts/Roboto-Regular.ttf') format('ttf');
-  font-weight: 500;
-
+  font-weight: 400;
   font-style: normal;
   font-display: swap;
   font-stretch: 85%;
   
 }
 */
+
 
 
 /* ==================================================== */
@@ -72,6 +73,8 @@ img {
   --gallery-radius: var(--radius); /* Corner roundness for gallery tiles */
   --shadow: 0 10px 30px rgba(2,6,23,0.30);
 }
+
+
 
 
 
@@ -310,7 +313,45 @@ img {
 }
 
 
+.checks-wrapper {
+  text-align: justify; /* Justify the whole block of text */
+  max-width: 900px;
+  margin: 0 auto;
+  display: block;
+}
 
+.checks li {
+  position: relative;
+  padding-left: 2rem; /* Space for the check mark */
+  margin: 0 1rem 1rem 0;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  text-align: justify;
+  display: block;
+  vertical-align: top; /* Align text block top */
+}
+
+.checks li::before {
+  content: "•"; /* Use a visible bullet */
+  position: absolute;
+  left: 0;
+  top: 0px; /* Large offset for testing */
+  font-size: 1.6rem;
+  color: blue; /* Visible color */
+  width: auto;
+  height: auto;
+  border-radius: 0;
+  background: none;
+  outline: none;
+}
+
+
+
+
+
+
+
+/*
 .checks li {
   font-size: 1.5rem;
   padding-left: 1.6rem;
@@ -335,6 +376,7 @@ img {
   margin: 0 auto;
   max-width: 900px;
 }
+*/
 
 /* ==================================================== */
 /*                   BUTTONS                             */
